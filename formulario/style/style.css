@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url('../img/atardecer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Helvetica;
+    height: 100vh;
+}
+
+nav{
+    background-color: rgb(151, 152, 196);
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r {
+    float: right;
+}
+
+
+.lista a:hover{
+    background-color: teal;
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid white;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(64, 224, 208, 0.596);
+}
+
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(64, 224, 208, 0.596);
+    color: white;
+}
+
+button[type="submit"]{
+    background: slateblue;
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(151, 152, 196);
+}
+
+.todo {
+    margin-top: 250px;
+}
+
+.imagencita {
+    border: 0;
+    border-radius: 0;
+    height: 350px;
+    width: 350px;
+    float: center;
+}
+
+.imagen {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
